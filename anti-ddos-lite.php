@@ -39,7 +39,7 @@ if ($anti_ddos_protection_enable && isset($_SERVER['REMOTE_ADDR'])) {
     // ATTENTION!!!
     // YOU MUST GENERATE NEW $security_cookie_salt BEFORE USE IT ON YOUR OWN SITE.
     // ATTENTION!!! 
-    $secure_cookie_salt = 'u2e2e9u8y4eq';
+    $secure_cookie_salt = '6e7ygaty4y7u';
 
     $secure_cookie_key = md5($remote_ip . ':' . $secure_cookie_salt);
 
