@@ -6,7 +6,7 @@
  <body>
 
 
- <?php require "/anti-ddos-lite.php";
+ <?php require "anti-ddos-lite.php";
 
  echo '<p>TEST DDOS</p>';
  
